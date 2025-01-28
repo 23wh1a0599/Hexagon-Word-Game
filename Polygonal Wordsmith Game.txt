@@ -1,0 +1,36 @@
+                                                      Polygonal Wordsmith Game
+
+
+This is an engaging word game built using Python and the Tkinter library for the GUI, with Pygame used for sound effects. The game presents hexagonal puzzles where players must guess words based on randomly selected letter combinations displayed on a central hexagon. The game includes sound effects for various actions (e.g., refreshing, submitting answers) and provides an interactive and visually appealing experience.
+  
+
+Highlights:
+
+1.Hexagonal Puzzle Design: 
+	The game generates a hexagonal layout with a central hexagon and six outer hexagons, each containing a letter.
+2.Multiple Word Sets: 
+	Players need to guess words related to specific categories ("Z", "B", "M") and input the correct word to score points.
+3.Dynamic Scoring System: 
+	The score updates based on the player's correct answers.
+4.Sound Effects: 
+	Enjoy sound effects when refreshing, submitting, or quitting the game.
+5.Instructions & Refresh Options: 
+	The game includes a "Next" button to start the game, a "Refresh" button to restart, and detailed instructions for gameplay.
+6.User Feedback: 
+	A retry window prompts users to try again if they enter an incorrect word, while a congratulations window appears when the player 	wins.
+
+
+Requirements:
+
+Python 3.x
+Tkinter (for GUI)
+Pygame (for sound effects)
+Pillow (for image handling)
+
+How to Play:
+
+Click on the "Next" button to start the game.
+Enter a word in the input field based on the letter displayed in the central hexagon.
+Click "Submit" to check if the word is correct.
+Your score will update based on correct answers, and a feedback message will appear for incorrect words.
+Continue guessing until you complete the game, and enjoy the congratulatory message when you win.
